@@ -1,0 +1,21 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+html,body{
+	font-size: 12px;
+	height: 100%;
+	font-family: helvetica,Arial,"\9ED1\4F53",sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+

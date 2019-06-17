@@ -1,0 +1,85 @@
+.category-page{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.search-head{
+	height: 1.34375rem;
+	background: #f8f8f8;
+	line-height: 1.34375rem;
+	padding: 0 0.28125rem;
+	position: relative;
+	}
+
+#search-form input{
+	border-radius: 0.9375rem;
+	border: none;
+	height: 0.75rem;
+	padding: 0 0.6875rem;
+	outline-style: none;
+	
+}
+
+.search-head .icon-search{
+	color: #b2b2b2;
+}
+
+.category-nav ul{
+	display: flex;
+	height: 1.09375rem;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.category-nav li{
+	width: 25%;
+	height: 100%;
+	box-sizing: border-box;
+    color: #999;
+    text-align: center;
+    padding: 0.3125rem 0;
+
+}
+
+.category-nav li span{
+	border-right: 1px solid #e6e6e6;
+	font-size: 15px;
+	width: 2.53125rem;
+	display: block;
+}
+
+.category-nav li:hover{
+	color: #333333;
+    border-bottom: 0.0625rem solid #444;
+}
+
+.category-contain{
+	display: flex;
+	height: 13.75rem;
+	overflow: hidden;
+}
+
+.contain{
+	width: 50%;
+	height: 100%;
+	
+}
+
+.contain-l{
+	background: #f8f8f8;
+}
+.contain-l li:nth-child(1){
+	background: white;
+}
+
+.contain-l li,.contain-r li{
+	height: 1.375rem;
+	line-height: 1.375rem;
+	padding: 0 0.5rem;
+	font-size: 0.46875rem;
+}
+
+.contain-r{
+	overflow: auto;
+}
+
+

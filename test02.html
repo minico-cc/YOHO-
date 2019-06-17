@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{
+				background: black;
+			}
+			img {
+  position: absolute;
+  animation: turn-over 2s 700ms infinite;
+}
+  
+.a {
+  z-index: 3;
+  backface-visibility: hidden;
+  /*transform: rotateX(360deg);*/
+}
+  
+.b {
+  position: absolute;
+  transform: rotateX(180deg);
+  backface-visibility: hidden;
+  animation: spill 2s infinite;
+  animation-delay: 700ms;
+}
+  
+@keyframes turn-over {
+  to {
+    transform: rotateX(-180deg);
+  }
+}
+  
+@keyframes spill {
+  to {
+    transform: translateX(0px);
+  }
+}                  
+		</style>
+	</head>
+	<body>
+		<div>
+			<img class="a" src="https://cdn.yoho.cn/yohobuywap-node/img/yohologo01.fdc1bf372e.png" alt="">
+			<img class="b" src="https://cdn.yoho.cn/yohobuywap-node/img/yohologo02.4b84a9fb7d.png" alt="">
+		</div>
+	</body>
+</html>
